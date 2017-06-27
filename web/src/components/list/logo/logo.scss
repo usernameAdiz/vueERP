@@ -1,0 +1,22 @@
+.list-logo-dl{
+    left:24%;
+    background-color: #FCFCFC;
+    .list-logo-dd{
+        display: inline-block;
+        background-color: #fff;
+        width:70px;
+        height:65px;
+        margin:6px 3px 3px 6px;
+        img{
+            padding-top:10px;
+            width:66px;
+        }
+        p{
+            text-align:center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            line-height: 20px;
+        }
+    }
+}

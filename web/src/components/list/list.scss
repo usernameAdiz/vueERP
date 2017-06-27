@@ -1,0 +1,36 @@
+
+*{box-sizing: border-box;}
+.list-container{
+    display:flex;
+    height:100%;
+    flex-direction: column;
+    .list-main{
+        flex:1;
+        display: flex;
+        .list-left{
+            width:24%;
+            overflow-y:auto;
+            background-color: #f5f5f5;
+            .list-left-ul{
+                text-align: center;
+                >li{
+                    margin:5px 0 5px 0;
+                    display:inline-block;
+                    width:56px;
+                    height:56px;
+                    text-align: center;
+                    line-height: 30px;
+                    border-bottom:1px solid #ddd;
+                    .list-active{
+                        color: #ED5564;
+                        border-bottom:2px solid #ED5564;
+                    } 
+                } 
+            }
+        }
+        .list-right{
+            width:76%;
+            overflow-y:auto;
+        }
+    }
+}

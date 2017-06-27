@@ -1,0 +1,71 @@
+#app{
+	width: 100%;
+	height:100%;
+}
+.footmark{
+	width: 100%;
+	height:100%;
+	display:flex;
+	flex-direction: column;
+	.mark-head{
+		height:40px;
+		line-height:40px;
+		background:#f5f5f5;
+		width: 100%;
+		padding:0 5px;
+		overflow:hidden;
+		text-align:center;
+		border-bottom:1px solid #ddd;
+		.sshi{
+			font-size:14px;
+			float:left;
+		}
+		span{
+			font-size:16px;
+		}
+	}
+	.mark-body{
+		flex:1;
+		overflow-x:hidden;
+		overflow-y:auto;
+		background:#f5f5f5;
+		.touch-order-list{
+			.order-list{
+				.norecord{
+					margin:120px auto;
+				    width: 200px;
+				    height: 164px;
+				    text-align: center;
+				    .norecord-ico{
+				    	width: 50px;
+				    	height:50px;
+				    	margin: 0 auto;
+    					background-color: #DDD;
+    					border-radius: 100%;
+    					line-height:50px;
+    					i{
+    						font-size:30px;
+    						color:#fff;
+    					}
+				    }
+				    dl{
+				    	margin-top:15px;
+				    	font-size:15px;
+				    	dd:last-child{
+				    		font-size:12px;
+				    		color:#999;
+				    		line-height:28px;
+				    	}
+				    }
+				    .go-home{
+				    	background:#fff;
+				    	display:inline-block;
+				    	padding:2px 5px;
+				    	border: solid 1px #ccc;
+				    	border-radius:3px;
+				    }
+				}
+			}
+		}
+	}
+}

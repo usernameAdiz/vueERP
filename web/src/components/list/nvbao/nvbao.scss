@@ -1,0 +1,29 @@
+.list-nvbao-dl{
+    box-sizing: border-box;
+    .list-tang-dd{
+        box-sizing: border-box;
+        position: relative;
+        background-color: #fcfcfc;
+        border:1px solid  #F5F5F5;
+        border-left:0;border-right:0;
+        line-height: 30px;
+         .icon-infenicon17{
+            color:#ED5564;
+            font-size: 30px;
+        }
+        .icon-xiangyou01{
+            position: absolute;
+            right:10px;
+        }
+    }
+    dd{
+        padding-left:10px;
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow:ellipsis; 
+        width:70px;
+        height:30px;
+        line-height: 30px;
+    }
+}

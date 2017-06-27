@@ -1,0 +1,16 @@
+.list-tang-dl{
+    .list-tang-dd{
+        position: relative;
+        line-height: 30px;
+        vertical-align: middle;
+        border:1px solid  #F5F5F5;
+        .icon-infenicon17{
+            color:#ED5564;
+            font-size: 30px;
+        }
+        .icon-xiangyou01{
+            position: absolute;
+            right:10px;
+        }
+    }
+}
